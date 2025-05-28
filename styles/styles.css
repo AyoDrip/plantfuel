@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,400&subset=hebrew');
+@import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@700&display=swap');
+
+.homebackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.searchbar {
+    margin-left: 10px;
+    padding: 10px 200px;
+    background-color: #d9d9d9;
+    color: #030303;
+    text-align: left;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 30px;
+    border: 1px solid #f9f9f9;
+}
+
+.searchbar:hover{
+    padding: 11px 205px;
+    border: 2px solid #030303;
+}
+
+.login, .signup {
+    margin-right: 10px;
+    padding: 10px 30px;
+    background-color: #d9d9d9;
+    color: #030303;
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+    transition: background 0.3s ease;
+}
+
+.signup:hover {
+    background-color: #030303;
+    color:#d9d9d9;
+    border: 3px solid #d9d9d9;
+}
+
+.login:hover {
+    background-color: #030303;
+    color:#d9d9d9;
+    border: 3px solid #d9d9d9;
+}
+
+.hero {
+    display: grid;
+}
+
+.heroimg {
+    display: flex;
+    border-radius: 30px;
+    position: absolute; 
+    background-position: center;
+    top: 80px;
+    width: 1336px;
+    height: 500px;
+    object-fit: cover;
+    z-index: -1;
+    margin: auto;
+}
+
+.headline {
+    margin-top: 70px;
+    color: white;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 41px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.subtext{
+    color: white;
+    font-size: 24px;
+    font-family: 'PlayPen Sans', sans-serif;
+    text-align: center;
+    padding: 20px;
+    border-radius:5px;
+}
+
+.early-access {
+    background-color: #d9d9d9;
+    color: #030303;
+    border: 1px solid #d9d9d9;
+    text-align: center;
+    padding: 12px 2px;
+    font-size: 28px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    border-radius: 45px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.early-access:hover {
+    background-color: #030303;
+    color:#d9d9d9;
+    border: 3px solid #d9d9d9;
+}
+
+.productbenefits2{
+    margin-top: 230px;
+    text-align: left;
+    border-radius: 30px;
+    margin-left: 20px;
+    background-color:#d9d9d9;
+    padding: 20px;
+    max-width: 450px;
+}
+
+.benefits1{
+    float: right;
+    max-width: 500px;
+    width: 500px;
+    height: 495px;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.ingredienttransparency {
+    margin-top: 64px;
+    float: right;
+    text-align: right;
+    background-color: #d9d9d9;
+    padding: 20px;
+    max-width: 450px;
+    margin-right: 20px;
+    border-radius: 30px;
+    height: 462px;
+}
+
+.transparencyimg {
+    margin-top: 50px;
+    max-width: 500px;
+    border-radius: 30px;
+    padding: 15px;
+    margin-left: 20px;
+}
+
+.testheading{
+    background-color: #d9d9d9;
+    border-radius: 30px;
+    color: #030303;
+    padding: 10px;
+    max-width: 120px;
+    margin-left: 20px;
+}
+
+.testimg {
+    display: flex;
+}
+
+.testimage {
+    display: flex;
+    border-radius: 30px;
+    margin-left: 20px;
+}
+
+.tticker {
+    width: 50%;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+    height: 200px;
+}
+
+.testimonial {
+    position: relative;
+    display: flex;
+    padding: 10px;
+    text-align: left;
+    background-color: #d9d9d9;
+    border-radius: 30px;
+    z-index: 999;
+}
+
+.stars {
+    font-size: 20px;
+    color: gold;
+    margin-top: 10px;
+}
+
+.faq {
+    margin-top: 200px;
+    display: flex;
+    background-color: #d9d9d9;
+    padding: 15px;
+    border-radius: 30px;
+    height: 410px;
+} 
+
+.faqheading {
+    color: #030303;
+    padding: 10px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    width: 50px;
+    max-width: 120px;
+}
+
+.faq1 {
+    float: left;
+    text-align: left;
+    width: 500px;
+    background-color: #d9d9d9;
+    padding: 20px;
+    max-width: 450px;
+    border-radius: 30px;
+}
+
+.faq2 {
+    float: right;
+    text-align: left;   
+    width: 500px; 
+    background-color: #d9d9d9;
+    padding: 20px;
+    max-width: 450px;
+    border-radius: 30px;
+}
+
+.question {
+    font-family: 'Lemon', cursive;
+    color:rgb(99, 0, 0);
+    font-size: 15px;
+}
+
+.footer {
+    margin-top: 100px;
+    background-color: #7DCF3D;
+    padding: 20px;
+    border-radius: 30px;
+    height: 350px;
+}
+
+.footertext {
+    margin-top: 50px;
+    font-size: 15px;
+    font-size: 24px;
+    font-family: 'Montaga', serif;
+}
+
+.footerimg1 {
+    margin-top: 0px;
+    margin-left: 50px;
+    width: 250px;
+    height: 190px;
+    max-width: 500px;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+.footerimg2 {
+    float: right;
+    margin-top: 80px;
+    max-width: 500px;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+.eafooter {
+    margin-top: 10px;
+    margin-left: 400px;
+    background-color: #d4dea6;
+    color: #232520;
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 25px;
+    justify-content: center;
+    font-family: 'Nerko One', cursive;
+    font-weight: bold;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.eafooter:hover {
+    background-color: #232520;
+    color:#d4dea6;
+    border: 3px solid #d4dea6;
+}
+
+.footeryaukwelisasa {
+    display: flex;
+}
+
+.footerfooter {
+    display: flex;
+}
+
+.plantfuel {
+    font-size: 35px;
+    color: #f9f9f9;
+    font-family: 'MPLUS 1P', sans-serif;
+    font-weight: bold;
+}
+
+.socicon {
+    max-width: 30px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.nav {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 700px;
+    display: flex;
+    text-align: right;
+    float: right;
+    color: #f9f9f9;
+}
